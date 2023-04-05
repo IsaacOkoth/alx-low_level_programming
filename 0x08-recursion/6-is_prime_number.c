@@ -2,7 +2,7 @@
 
 /**
  * is_divisible - Entry point
- * Describing:Prime number
+ * Description:Prime number
  * @n:Integer
  * @div:integer
  * Return:1 if it is a prime number otherwise
@@ -29,7 +29,7 @@ int is_prime_number(int n)
 	{
 		return (0);
 	}
-	if (n == 2)
+	if (n == 1)
 	{
 		return (1);
 	}
