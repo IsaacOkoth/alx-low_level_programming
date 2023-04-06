@@ -1,16 +1,17 @@
 #include "main.h"
 /**
- * -puts_recursion - prints a string, on the terminal
+ * _puts_recursion - prints a string, on the terminal
  *now points on a block of memory to fill
  *  Return void , thats for a null value
+ *  @s: input
  */
-void puts_recursion(char *s)
+void _puts_recursion(char *s)
 {
-	if (*s == / 0)
+	if (*s == '\0')
 {
-		_putchar( / n);
+		_putchar('\n');
 		return;
 	}
 		_putchar(*s);
-		-puts_recursion(s + 1);
+		_puts_recursion(s + 1);
 }
